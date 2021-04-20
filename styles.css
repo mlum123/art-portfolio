@@ -1,0 +1,15 @@
+body {
+  font-family: Karla, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  font-style: italic;
+  padding-top: 2rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-style: italic;
+}
