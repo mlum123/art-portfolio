@@ -16,6 +16,9 @@
     <!-- Custom CSS -->
     <link href="styles.css" rel="stylesheet" type="text/css" />
 
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -26,6 +29,17 @@
     <title>michelle lum</title>
   </head>
   <body>
+    <div id="myModal" class="modal">
+      <!-- close button -->
+      <span class="close">&times;</span>
+
+      <!-- modal content (image) -->
+      <img class="modal-content" id="modal-img" />
+
+      <!-- modal caption (image alt text) -->
+      <div id="caption"></div>
+    </div>
+
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12 col-lg-3">
@@ -48,15 +62,15 @@
             <div class="col-xs-12 col-lg-5 my-auto">
               <div class="row">
                 <img
-                  class="mx-auto"
-                  id="yosemite"
-                  src="img/yosemite.jpeg"
-                  alt="Yosemite"
+                  class="gallery-img mx-auto"
+                  id="dreams"
+                  src="img/Dreams.png"
+                  alt="Dreams"
                 />
               </div>
               <div class="row">
                 <img
-                  class="mx-auto"
+                  class="gallery-img mx-auto"
                   id="sunset"
                   src="img/sunset.jpeg"
                   alt="Sunset"
@@ -66,10 +80,10 @@
             <div class="col-xs-12 col-lg-7 my-auto">
               <div class="row">
                 <img
-                  class="mx-auto"
-                  id="waterfall"
-                  src="img/vertical waterfall.jpeg"
-                  alt="Waterfall"
+                  class="gallery-img mx-auto"
+                  id="imagination"
+                  src="img/Imagination.png"
+                  alt="Imagination"
                 />
               </div>
             </div>
