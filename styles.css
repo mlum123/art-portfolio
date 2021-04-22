@@ -7,7 +7,6 @@ h1 {
   font-weight: bold;
   font-size: 3rem;
   font-style: italic;
-  padding-top: 2rem;
 }
 
 h2 {
@@ -16,10 +15,16 @@ h2 {
 }
 
 /* Navbar Styling */
-.navbar {
-  background: #d3e0ea;
-  min-height: 100vh;
-  padding-right: 2rem;
+@media only screen and (max-width: 992px) {
+  .navbar {
+    padding-top: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    min-height: 100vh;
+  }
 }
 
 .navbar a {
@@ -40,10 +45,10 @@ img {
 
 #yosemite,
 #sunset {
-  margin-left: 2rem;
   max-width: 70vh;
 }
 
 #waterfall {
+  margin-left: 2rem;
   max-height: 100vh;
 }
