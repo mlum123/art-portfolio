@@ -1,5 +1,6 @@
 body {
   font-family: Karla, sans-serif;
+  background: #f6f5f5;
 }
 
 h1 {
@@ -12,4 +13,37 @@ h1 {
 h2 {
   font-size: 1.25rem;
   font-style: italic;
+}
+
+/* Navbar Styling */
+.navbar {
+  background: #d3e0ea;
+  min-height: 100vh;
+  padding-right: 2rem;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.navbar a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Image Styling */
+img {
+  padding: 1rem;
+}
+
+#yosemite,
+#sunset {
+  margin-left: 2rem;
+  max-width: 70vh;
+}
+
+#waterfall {
+  max-height: 100vh;
 }
