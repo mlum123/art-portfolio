@@ -6,7 +6,7 @@ body {
 /* Navbar Styling */
 h1 {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-style: italic;
 }
 
@@ -21,18 +21,32 @@ h2 {
   font-style: italic;
 }
 
+.navbar .active {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar .active:hover {
+  text-decoration: none;
+  cursor: default;
+}
+
 .navbar a:hover {
   font-weight: bold;
   text-decoration: underline;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    position: fixed;
+  }
 }
 
 @media only screen and (max-width: 992px) {
   .navbar {
     padding-top: 1.5rem;
   }
-}
 
-@media only screen and (max-width: 768px) {
   li {
     text-align: center;
   }
@@ -45,22 +59,28 @@ h2 {
 }
 
 /* Image Styling */
+img {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 .horizontal-img {
-  max-width: 70vh;
+  max-width: 100%;
   height: auto;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+}
+
+.bottom-horizontal-img {
+  max-width: 100%;
+  height: auto;
 }
 
 .vertical-img {
   max-height: 100vh;
   width: auto;
-  padding: 1rem 0;
 }
 
-img {
-  cursor: pointer;
-  transition: 0.3s;
+.gallery-img {
+  padding: 0.5rem;
 }
 
 .gallery-img:hover {
