@@ -37,7 +37,7 @@ body {
   box-sizing: border-box;
 }
 
-/* MY CUSTOM CSS */
+/* BEGINNING OF MY CUSTOM CSS */
 .navbar-brand {
   color: #777;
   font-weight: bold;
@@ -46,6 +46,7 @@ body {
 .navbar-brand:hover {
   color: #777;
 }
+/* END OF MY CUSTOM CSS */
 
 img {
   max-width: 100%;
@@ -1003,42 +1004,26 @@ p {
 }
 
 /*===========================
-     5.SERVICES css 
-===========================*/
-.services-area {
-  background-color: #fffaf6;
-}
-@media (max-width: 767px) {
-  .services-area {
-    padding-top: 75px;
-    padding-bottom: 80px;
-  }
-}
-
-.services-left {
-  position: relative;
-}
-.services-left .services img {
-  width: 100%;
-}
-
-.single-services {
-  border: 1px solid #ddd;
-  padding: 25px 15px;
-  background: #fff;
-}
-.single-services .services-icon i {
-  font-size: 50px;
-  color: #fe7865;
-}
-.single-services .services-content .title {
-  font-size: 20px;
-  color: #fe7865;
-}
-
-/*===========================
      6.SHOWCASE css 
 ===========================*/
+/* BEGINNING OF MY CUSTOM CSS */
+#dreams {
+  max-width: 75%;
+}
+
+#imagination {
+  max-width: 80%;
+}
+
+#curiosity {
+  max-width: 33%;
+}
+
+#mischief {
+  max-width: 85%;
+}
+/* END OF MY CUSTOM CSS */
+
 @media (max-width: 767px) {
   .showcase-area {
     padding-top: 50px;
@@ -1047,13 +1032,19 @@ p {
 }
 
 .showcase-title .title {
-  font-size: 35px;
+  font-size: 30px;
 }
 @media (max-width: 767px) {
   .showcase-title .title {
     font-size: 30px;
   }
 }
+
+/* BEGINNING OF MY CUSTOM CSS */
+.showcase-title {
+  font-size: 15px;
+}
+/* END OF MY CUSTOM CSS */
 
 .single-showcase {
   margin-right: 50px;
@@ -1132,368 +1123,6 @@ p {
   font-size: 20px;
   text-align: center;
   cursor: pointer;
-}
-
-/*===========================
-     6.TEAM css 
-===========================*/
-.team-area {
-  background-color: #fffaf6;
-}
-@media (max-width: 767px) {
-  .team-area {
-    padding-top: 75px;
-    padding-bottom: 80px;
-  }
-}
-
-.single-temp {
-  border: 1px solid transparent;
-  padding: 30px;
-  background-color: #fff;
-  -webkit-transition: all 0.4s ease-out 0s;
-  -moz-transition: all 0.4s ease-out 0s;
-  -ms-transition: all 0.4s ease-out 0s;
-  -o-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
-}
-.single-temp .team-image img {
-  border-radius: 50%;
-}
-.single-temp .team-content .title a {
-  font-size: 20px;
-  color: #333;
-  -webkit-transition: all 0.4s ease-out 0s;
-  -moz-transition: all 0.4s ease-out 0s;
-  -ms-transition: all 0.4s ease-out 0s;
-  -o-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
-}
-.single-temp .team-content .title a:hover {
-  color: #fe7865;
-}
-.single-temp .team-content span {
-  font-size: 14px;
-  color: #777;
-  display: block;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 2px;
-}
-.single-temp .team-content .social {
-  border: 1px solid #fe7865;
-  display: inline-block;
-  line-height: 38px;
-  padding: 0 15px;
-  border-radius: 50px;
-  background-color: #ffe8e5;
-}
-.single-temp .team-content .social li {
-  display: inline-block;
-  margin: 0 10px;
-}
-.single-temp .team-content .social li a {
-  font-size: 16px;
-  color: #777;
-  -webkit-transition: all 0.4s ease-out 0s;
-  -moz-transition: all 0.4s ease-out 0s;
-  -ms-transition: all 0.4s ease-out 0s;
-  -o-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
-}
-.single-temp .team-content .social li a:hover {
-  color: #fe7865;
-}
-.single-temp:hover {
-  border-color: #fe7865;
-  -webkit-box-shadow: 0px 0px 7px 0px rgba(254, 119, 101, 0.55);
-  -moz-box-shadow: 0px 0px 7px 0px rgba(254, 119, 101, 0.55);
-  box-shadow: 0px 0px 7px 0px rgba(254, 119, 101, 0.55);
-}
-
-/*===========================
-     7.TESTIMONIAL css 
-===========================*/
-.testimonial-area {
-  position: relative;
-}
-.testimonial-area .testimonial-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 68%;
-}
-@media (max-width: 767px) {
-  .testimonial-area {
-    padding-top: 100px;
-  }
-}
-
-.testimonial-content {
-  background-color: rgba(254, 120, 101, 0.9);
-}
-
-.single-testimonial {
-  padding: 40px 25px 50px;
-}
-.single-testimonial i {
-  font-size: 80px;
-  color: #fff;
-}
-.single-testimonial p {
-  font-size: 29px;
-  color: #fff;
-  font-weight: 500;
-  font-style: italic;
-  line-height: 48px;
-}
-@media (max-width: 767px) {
-  .single-testimonial p {
-    font-size: 18px;
-    line-height: 30px;
-  }
-}
-.single-testimonial .title {
-  font-size: 16px;
-  color: #fff;
-}
-.single-testimonial span {
-  font-size: 14px;
-  color: #fff;
-}
-
-.testimonial-play a {
-  width: 90px;
-  height: 90px;
-  line-height: 90px;
-  border-radius: 50%;
-  background-color: #fff;
-  text-align: center;
-  font-size: 45px;
-  color: #fe7865;
-  -webkit-transition: all 0.4s ease-out 0s;
-  -moz-transition: all 0.4s ease-out 0s;
-  -ms-transition: all 0.4s ease-out 0s;
-  -o-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
-}
-.testimonial-play a:hover {
-  color: #fff;
-  background-color: #fe7865;
-}
-.testimonial-play a i {
-  margin-left: 10px;
-  line-height: 90px;
-}
-
-/*===========================
-     7.BLOG css 
-===========================*/
-@media (max-width: 767px) {
-  .blog-area {
-    padding-top: 75px;
-  }
-}
-
-.single-blog {
-  -webkit-box-shadow: 0px 15px 21px 0px rgba(254, 119, 101, 0.06);
-  -moz-box-shadow: 0px 15px 21px 0px rgba(254, 119, 101, 0.06);
-  box-shadow: 0px 15px 21px 0px rgba(254, 119, 101, 0.06);
-}
-.single-blog .blog-image {
-  overflow: hidden;
-}
-.single-blog .blog-image img {
-  width: 100%;
-  -webkit-transition: all 0.4s ease-out 0s;
-  -moz-transition: all 0.4s ease-out 0s;
-  -ms-transition: all 0.4s ease-out 0s;
-  -o-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
-}
-.single-blog .blog-content {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-top: 0;
-}
-.single-blog .blog-content .content {
-  padding: 20px 30px 25px;
-}
-.single-blog .blog-content .content .title a {
-  font-size: 20px;
-  color: #333;
-  line-height: 36px;
-  -webkit-transition: all 0.4s ease-out 0s;
-  -moz-transition: all 0.4s ease-out 0s;
-  -ms-transition: all 0.4s ease-out 0s;
-  -o-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
-}
-.single-blog .blog-content .content .title a:hover {
-  color: #fe7865;
-}
-.single-blog .blog-content .content span {
-  font-size: 16px;
-  font-style: italic;
-  color: #777;
-}
-.single-blog .blog-content .meta {
-  border-top: 1px solid #ddd;
-  padding: 20px 30px 25px;
-}
-.single-blog .blog-content .meta .meta-admin .image a img {
-  border-radius: 50%;
-}
-.single-blog .blog-content .meta .meta-admin .admin-title {
-  padding-left: 20px;
-}
-.single-blog .blog-content .meta .meta-admin .admin-title .title a {
-  font-size: 16px;
-  font-weight: 500;
-  color: #333;
-  -webkit-transition: all 0.4s ease-out 0s;
-  -moz-transition: all 0.4s ease-out 0s;
-  -ms-transition: all 0.4s ease-out 0s;
-  -o-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
-}
-.single-blog .blog-content .meta .meta-admin .admin-title .title a:hover {
-  color: #fe7865;
-}
-.single-blog .blog-content .meta .meta-icon ul li {
-  display: inline-block;
-  margin-right: 15px;
-}
-.single-blog .blog-content .meta .meta-icon ul li:last-child {
-  margin-right: 0;
-}
-.single-blog .blog-content .meta .meta-icon ul li a {
-  font-size: 16px;
-  color: #333;
-  -webkit-transition: all 0.4s ease-out 0s;
-  -moz-transition: all 0.4s ease-out 0s;
-  -ms-transition: all 0.4s ease-out 0s;
-  -o-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
-}
-.single-blog .blog-content .meta .meta-icon ul li a:hover {
-  color: #fe7865;
-}
-.single-blog:hover .blog-image img {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-/*===========================
-       8.CONTACT css 
-===========================*/
-.contact-area .contact-title .title {
-  font-size: 60px;
-  color: #333;
-}
-@media (max-width: 767px) {
-  .contact-area .contact-title .title {
-    font-size: 35px;
-  }
-}
-@media (max-width: 767px) {
-  .contact-area {
-    padding-top: 70px;
-  }
-}
-
-.contact-box {
-  padding: 10px 40px 40px;
-  -webkit-box-shadow: 0px 0px 40px 0px rgba(156, 156, 156, 0.25);
-  -moz-box-shadow: 0px 0px 40px 0px rgba(156, 156, 156, 0.25);
-  box-shadow: 0px 0px 40px 0px rgba(156, 156, 156, 0.25);
-  background-color: #fff;
-}
-@media (max-width: 767px) {
-  .contact-box {
-    padding: 0 20px 20px;
-  }
-}
-
-.contact-info .info-title {
-  font-size: 26px;
-  padding-bottom: 5px;
-}
-
-.single-info {
-  position: relative;
-}
-.single-info .info-icon {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-.single-info .info-icon i {
-  font-size: 20px;
-  color: #fe7865;
-}
-.single-info .info-content {
-  padding-left: 40px;
-}
-.single-info .info-content p {
-  font-size: 18px;
-  font-weight: 500;
-}
-@media (max-width: 767px) {
-  .single-info .info-content p {
-    font-size: 16px;
-  }
-}
-
-.form-group {
-  margin: 0;
-}
-
-.single-form {
-  margin-top: 30px;
-}
-.single-form textarea,
-.single-form input {
-  width: 100%;
-  height: 55px;
-  border: 1px solid #ddd;
-  background-color: #f7f7ff;
-  padding: 0 20px;
-}
-.single-form textarea {
-  height: 155px;
-  padding-top: 15px;
-  resize: none;
-}
-.single-form textarea::placeholder,
-.single-form input::placeholder {
-  opacity: 1;
-  color: #777;
-}
-
-p.form-message.success,
-p.form-message.error {
-  font-size: 16px;
-  color: #333;
-  background: #ddd;
-  padding: 10px 15px;
-  margin-left: 15px;
-  margin-top: 15px;
-}
-
-p.form-message.error {
-  color: #f00;
-}
-
-.list-unstyled li {
-  font-size: 13px;
-  margin-left: 2px;
-  margin-top: 5px;
-  color: #f00;
 }
 
 /*===========================
